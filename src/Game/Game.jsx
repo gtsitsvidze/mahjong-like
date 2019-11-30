@@ -57,7 +57,7 @@ const App = () => {
             key={index}
             visible={!(state.matched.indexOf(index) === -1)}
             flipped={state.flipped.indexOf(index) !== -1}
-            onClick={() => shown ? null : handleClick({ item, index })}
+            onClick={() => (shown || !(state.matched.indexOf(index) === -1)) ? null : handleClick({ item, index })}
             value={item}
             shown={shown}
           />
