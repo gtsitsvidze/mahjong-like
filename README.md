@@ -1,5 +1,5 @@
 # Mahjong like game with react.js
-### *Just for fun :)*
+### *Making it  for fun :)*
 #### Scripts
 ``` yarn```
 ``` yarn run start```
